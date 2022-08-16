@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/salary_css/sCreat.css">
+    <title>Salary_Create</title>
+</head>
+<body onload="salary_emp()">
+    <div class="creat-page-body">
+        <h1> -: <span>E</span>mployee Salary <span>F</span>orm :- </h1>
+        <ul>
+            <li><a href="/Index.html">Home</a></li>
+            <li><a href="/salary/sIndex.html">List</a></li>
+            <li><a href="/salary/sShow.html">Show Data</a></li>
+        </ul>
+        
+        <div class="slary_form_body">
+       
+            <form class="form"  method="post" id="employee_salary_form">
+                
+                <select  class="input_type_salary validate" name="Employee_name" id="Employee_name">
+                    <option class="select-option" disabled selected value=""> --- Employee Name ---</option>
+                    <!-- set employee name hear on js -->
+                </select>
+                <p class="error hide" id="error_Experiance">Please Selact Employee</p>
+
+                <input class="input_type_salary validate" type="number" name="salary" id="salary" placeholder="Salary">
+                <p class="error hide" id="error_salary">Please Enter salary</p>
+
+                <input class="input_type_salary validate" type="date" id="date" name="date" placeholder="Dalte">
+                <p class="error hide" id="error_dale">Please Enter Date</p>
+
+
+                <div class="btn">
+                    <button type="submit" value="Send Recipe">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/assets/js/salary_js/sCreat.js"></script>
+</body>
+</html>

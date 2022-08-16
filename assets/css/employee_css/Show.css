@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------------- index_listing_page--------------------------------------- */
+
+.listing_page_body {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(214 191 246), rgb(229 221 240 / 65%)), url(/assets/Images/form-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.heading{
+    padding: 100px 0 30px 0;
+}
+.listing_page_body h1 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    text-shadow: 0px 6px 5px #747474;
+    font-size: 40px;
+}
+span {
+    color: rgb(146 121 222);
+}
+.heading ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px auto;
+    cursor: pointer;
+}
+.heading li{
+    list-style: none;
+    margin: 0 10px;
+}
+.heading a{
+    color: #9b5af1ad;
+   text-decoration: none;
+   text-shadow: 4px 4px 4px #9a9696;
+}
+.heading li a:hover{
+    color: white;
+}
+.table_body{
+    width: 80%;
+    height: fit-content;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+      
+}
+
+th, td{
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #ffffff2b;
+    color: white;
+  }
+tbody td{
+    color: rgb(130 128 128);
+    text-align: start;
+}
+.fa-pen-to-square{
+    color: #2e982eba;
+}
+.fa-pen-to-square:hover{
+    color: rgb(0, 255, 34);
+}
+.fa-trash-can{
+    color: #df1d1db8;
+}
+.fa-trash-can:hover{
+    color: red;
+}

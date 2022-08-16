@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/salary_css/sCreat.css">
+    <title>Document</title>
+</head>
+<body onload="editOnlod_sal()">
+    <div class="creat-page-body">
+        <h1> -: <span>E</span>mployee Salary <span>E</span> dit Form :- </h1>
+        <ul>
+            <li><a href="/Index.html">Home</a></li>
+            <li><a href="/salary/sIndex.html">List</a></li>
+            <li><a href="/salary/sShow.html">Show Data</a></li>
+        </ul>
+        
+        <div class="slary_form_body">
+       
+            <form class="form"  method="post" id="employee_salary_form">
+                
+                <input class="input_type_salary validate" type="text" name="Employee_name" id="Employee_name" placeholder="Name">
+                
+                <input class="input_type_salary validate" type="number" name="salary" id="salary" placeholder="Salary">
+                
+                <input class="input_type_salary validate" type="date" id="date" name="date" placeholder="Dalte">
+                
+                <div class="btn">
+                    <button type="submit" value="Send Recipe" onclick=" empl_sal_update()">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/assets/js/salary_js/sEdit.js"></script>
+</body>
+</html>

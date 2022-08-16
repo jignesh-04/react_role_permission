@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/employee_css/Creat.css">
+    <script src="https://kit.fontawesome.com/5911be93a1.js" crossorigin="anonymous"></script>
+
+    <title>Employee_Edit</title>
+</head>
+
+<body onload="editOnlod()">
+    <div class="creat-page-body">
+        <h1> -: <span>E</span>dit <span>F</span>orm :- </h1>
+        <ul>
+            <li><a href="/Index.html">Home</a></li>
+            <li><a href="/employee/Index.html">List</a></li>
+            <li><a href="/employee/Show.html">Show Data</a></li>
+        </ul>
+
+        <div class="form-body" id="form">
+            
+            <form class="form" autocomplete="off" method="post" id="employee_edit_form">
+
+                <input class="input-type validate " type="text" name="fname" id="fname" placeholder=" Your Full Name">
+                
+                <input class="input-type validate" type="number" name="phone" id="phone" placeholder=" Mobile Number">
+                
+                <input class="input-type validate" type="email" name="email" id="email" placeholder=" Mail id">
+                
+                <input class="input-type validate" type="password" name="password" id="password" placeholder=" Password" >
+                
+                <div class="radio" >
+                    <h3>Gender : </h3>
+                    <input type="radio" id="Male" name="Gender" value="Male" checked>
+                    <label for="Male">Male</label><br>
+                    <input type="radio" id="Female" name="Gender" value="Female">
+                    <label for="Female">Female</label><br>
+                </div>
+
+                <div class="checkbox">
+                    <h3>Hobbies : </h3>
+                    <input class="hobbies" type="checkbox" id="hobbies1" name="hobbies" value="Reading">
+                    <label for="hobbies1">Reading</label><br>
+                    <input class="hobbies" type="checkbox" id="hobbies2" name="hobbies" value="Music">
+                    <label for="hobbies2">Music</label><br>
+                    <input class="hobbies" type="checkbox" id="hobbies3" name="hobbies" value="Sports">
+                    <label for="hobbies3">Sports</label><br>
+                </div>
+                
+                <select class="input-type validate" name="Experiance" id="Experiance">
+                    <option class="select-option" disabled selected value=""> --- Experiance ---</option>
+                    <option class="select-option" value="fresher">Fresher</option>
+                    <option class="select-option" value="six_mounth">Six Mounth</option>
+                    <option class="select-option" value="one_year">One Year</option>
+                    <option class="select-option" value="two_years">Two Years</option>
+                    <option class="select-option" value="three_years">Three Years</option>
+                    <option class="select-option" value="four_years">Four Years</option>
+                    <option class="select-option" value="five_pluse">Five Pluse Years</option>
+                </select>
+                
+                <div class="btn">
+                    <button value="Send Recipe" onclick="update()">Update</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+            <script src="/assets/js/Index.js"></script>
+            <script src="/assets/js/employee_Edit.js"></script>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

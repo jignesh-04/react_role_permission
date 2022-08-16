@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------------- Employee_Create--------------------------------------- */
+
+.creat-page-body {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(214 191 246), rgb(229 221 240 / 65%)), url(/assets/Images/form-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.creat-page-body h1 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    text-shadow: 0px 6px 5px #747474;
+    font-size: 40px;
+}
+span {
+    color: rgb(146 121 222);
+}
+.creat-page-body ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px auto;
+    cursor: pointer;
+}
+.creat-page-body li{
+    list-style: none;
+    margin: 0 10px;
+}
+.creat-page-body a{
+    color: #9b5af1ad;
+   text-decoration: none;
+   text-shadow: 4px 4px 4px #9a9696;
+}
+.creat-page-body li a:hover{
+    color: white;
+}
+
+
+.form-body {
+    height: 85vh;
+    width: 650px;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid rgb(240, 237, 237);
+    border-radius: 10px;
+}
+
+.form {
+    margin: 50px 90px;
+
+}
+
+.input-type {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px white;
+    border-radius: 4px;
+    padding-left: 10px;
+    background: transparent;
+    margin: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+input:hover {
+    border: 1px solid #e0d0f5;
+    box-shadow: 1px 1px 3px white;
+    background: transparent;
+}
+
+.radio,
+.checkbox {
+    display: flex;
+    align-items: baseline;
+    margin: 20px 15px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.radio h3,
+.checkbox h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.radio input,
+.checkbox input {
+    margin: 15px 10px;
+}
+
+option {
+    color: white;
+    background-color: #c2a4ec;
+    cursor: pointer;
+    min-width: 160px;
+}
+
+.select-option {
+    width: 60px;
+}
+
+.btn {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn button {
+    font-size: 15px;
+    color: white;
+    background-color: #9b5af1ad;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px white;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #b287ebad;
+}
+
+p {
+    color: tomato;
+    font-size: 15px;
+}
+
+.hide {
+    display: none;
+
+}
+
+input:focus-visible,
+select:focus-visible {
+    outline: none;
+    border: 1px solid #9b5af1ad;
+}
+
+
