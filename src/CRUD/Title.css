@@ -1,0 +1,26 @@
+.title_body{
+        height: 100vh;
+        background-color: gray;
+}
+.btn{
+    display: flex;
+    padding: 100px 100px;
+    justify-content: end;
+}
+.btn button{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    font-weight: 900;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: orange;
+}

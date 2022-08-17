@@ -1,0 +1,57 @@
+.form_body{
+    padding: 80px 200px;
+}
+.form_body h1{
+    color: orange;
+}
+form{
+    width: 50%;
+    line-height: 20px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid orange;
+    padding: 20px 40px;
+}
+input, label{
+    height: 20px;
+    width: 300px;
+    margin: 0px auto;
+   
+}
+p{
+    margin: 0 auto;
+    color: tomato;
+}
+.radio_btn{
+    font-size: 15px;
+    line-height: 35px;
+}
+.checkbox_btn{
+    
+    font-size: 15px;
+    line-height: 35px;
+}
+input[type="radio" i],[type="checkbox" i]{
+   width: 20px;
+   margin: 0 40px;
+   font-size: 15px;
+}
+.lable_click{
+    margin: 0px 40px;
+    
+}
+.form_btn{
+    margin: 0 auto;
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin: 20px 10px;
+    background-color: orange;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
